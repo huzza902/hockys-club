@@ -11,17 +11,70 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <style>
-        .font-manrope{
+        .font-manrope {
             font-family: "Manrope", system-ui;
         }
     </style>
+    <script src="https://kit.fontawesome.com/d05c174ddb.js" crossorigin="anonymous"></script>
+
 
 
 </head>
 
 <body class="font-manrope">
     <header>
-        <nav></nav>
+        <nav>
+            <div class="navbar ">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content  rounded-box z-[1] mt-3 w-52 p-2 ">
+                            <li><a>Item 1</a></li>
+
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-xl">Hockey<span class="text-red-400">'</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a><span class="text-red-500">Home</span></a></li>
+                        <li>
+                            <a href="">About</a>
+                        </li>
+                        <li><a>Page</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end gap-5">
+
+                    <div class=""> <i class="fa-solid fa-magnifying-glass"></i></div>
+                    <a class="btn bg-red-600">Get Tickets</a>
+                </div>
+            </div>
+        </nav>
+        <section class="">
+            <div class="hero min-h-[500px] rounded-xl" style="background-image: url(./Images/1.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-neutral-content text-center">
+                    <div class="max-w-md relative">
+                       <div class="absolute flex gap-2 -left-[630px] top-40"><span class="bg-black rounded-lg" ><</span>
+                    <span class="bg-black rounded-full">></span></div>
+                       <div class="absolute bg-black text-white h-44 w-[460px] py-5 left-16 rounded-2xl">
+                        <h3 class="font-extrabold text-xl">Meet all the heroes from the field</h3>
+                        <p class="py-3 px-1 ">The only place which makes by heroes and run by the legends.Those who have passions for hockey should join here because , the only place where the heroes guides to make heroes  </p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </header>
     <main></main>
     <footer></footer>
